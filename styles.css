@@ -14,6 +14,7 @@ h1 {
   color: #111;
   max-width: 600px;
   margin: 10px 0 0 0;
+  cursor: text;
 }
 
 .section#contact p {
@@ -22,6 +23,7 @@ h1 {
   color: #111;
   max-width: 600px;
   margin: 10px 0 0 0;
+  cursor: text;
 }
 
 .links {
