@@ -8,6 +8,14 @@ h1 {
   cursor: pointer;
 }
 
+.links p {
+  font-size: 18px;
+  line-height: 1.6;
+  color: #000;
+  margin: 0;
+  max-width: 600px;
+}
+
 .links {
   cursor: pointer;
   display: grid;
