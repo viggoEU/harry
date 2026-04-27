@@ -1,0 +1,18 @@
+.links {
+  margin-left: 20px;
+
+  display: grid;
+  grid-template-rows: 0fr;
+  transition: grid-template-rows 0.4s ease, opacity 0.25s ease;
+  opacity: 0;
+}
+
+.links > div {
+  overflow: hidden;
+}
+
+/* when open */
+.links.open {
+  grid-template-rows: 1fr;
+  opacity: 1;
+}
