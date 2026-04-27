@@ -88,25 +88,6 @@
   <div class="links"></div>
 </div>
 
-<script>
-  const sections = document.querySelectorAll('.section');
-
-  sections.forEach(section => {
-    const title = section.querySelector('.section-title');
-    const links = section.querySelector('.links');
-
-    title.addEventListener('click', () => {
-      // close all others
-      document.querySelectorAll('.links').forEach(l => {
-        if (l !== links) l.style.display = 'none';
-      });
-
-      // toggle this one
-      links.style.display = (links.style.display === 'block') ? 'none' : 'block';
-    });
-  });
-</script>
-
 <script src="script.js"></script>
 </body>
 </html>
