@@ -8,6 +8,10 @@ h1 {
   cursor: pointer;
 }
 
+.section-title: hover {
+  text-decoration: underline;
+}
+
 .section#about p {
   font-size: 18px;
   line-height: 1.7;
