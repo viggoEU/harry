@@ -1,5 +1,5 @@
 .links {
-  margin-left: 20px;
+  margin-left: 40px;
 
   display: grid;
   grid-template-rows: 0fr;
@@ -15,6 +15,7 @@
 .links.open {
   grid-template-rows: 1fr;
   opacity: 1;
+  fill: #0000ff;
 }
 
 .section-title {
