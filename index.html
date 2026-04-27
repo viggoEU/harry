@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Harry Thorfinn George</title>
+
+<style>
+  body {
+    margin: 40px 60px;
+    font-family: Georgia, serif;
+    background: #f0f0f0;
+    color: #000;
+  }
+
+  h1 {
+    font-size: 64px;
+    font-weight: normal;
+    margin-bottom: 40px;
+  }
+
+  .section-title {
+    font-size: 42px;
+    cursor: pointer;
+    margin: 20px 0;
+  }
+
+  .links {
+    margin-left: 20px;
+    display: none;
+  }
+
+  .links a {
+    display: block;
+    font-size: 18px;
+    color: #0000ff;
+    text-decoration: none;
+    margin: 6px 0;
+  }
+
+  .links a:hover {
+    text-decoration: underline;
+  }
+</style>
+</head>
+
+<body>
+
+<h1>Harry Thorfinn George</h1>
+
+<div class="section">
+  <div class="section-title">Articles</div>
+  <div class="links">
+    <a href="#">6 Highlights From Pitchfork Music Festival London 2025</a>
+    <a href="#">Pink Man pushing his pink trolley through a field in Thailand: Manit Sriwanichpoom’s best photograph</a>
+    <a href="#">5 Highlights From Pitchfork Music Festival London 2024</a>
+    <a href="#">theartsdesk Q&A: Anna Bogutskaya on her new book about the past decade of horror cinema</a>
+    <a href="#">DVD/Blu-Ray: Priscilla</a>
+    <a href="#">Albums of the Year 2023: Jim Legxacy - HNPM</a>
+    <a href="#">Bladee's Swedish homecoming</a>
+    <a href="#">‘The most boring book club meetings are when we all agree’</a>
+    <a href="#">This small press publishes Nobel laureates, but still has two feet in Deptford</a>
+    <a href="#">Albums of the Year 2022: caroline - caroline</a>
+    <a href="#">‘Young people telling their own stories’ - youth theatre boosted by £422,000 Lottery grant</a>
+    <a href="#">Activists occupy tree to stop felling by council</a>
+    <a href="#">Tributes paid to Lewisham community activist</a>
+    <a href="#">Renting activists plan day of protest across the ELL boroughs next week</a>
+    <a href="#">theartsdesk Q&A: Marc Almond of Soft Cell</a>
+    <a href="#">Albums of the Year 2021: PinkPantheress - to hell with it</a>
+    <a href="#">Albums of the Year 2020: A.G. Cook - 7G</a>
+  </div>
+</div>
+
+<div class="section">
+  <div class="section-title">Reviews</div>
+  <div class="links">
+    <a href="#">caroline, Islington Assembly Hall review - South London octet mesmerises</a>
+    <a href="#">Mongrel review - deeply empathetic filmmaking from Taiwan</a>
+    <a href="#">Smile 2 review - worthy follow up to runaway hit</a>
+    <a href="#">Red Rooms review - the darkest of webs</a>
+    <a href="#">Strange Darling review - love really hurts</a>
+    <a href="#">In A Violent Nature review - inverted slasher is fascinating</a>
+    <a href="#">Longlegs review - like its titular killer, this summer's most hyped horror film leaves no trace</a>
+    <a href="#">The Moor review - Yorkshire chiller is ambitious but muddled</a>
+    <a href="#">Album: Fabiana Palladino - Fabiana Palladino</a>
+    <a href="#">Late Night With the Devil review - indie-horror punches above its weight</a>
+    <a href="#">Immaculate review - grisly convent horror is timely but flawed.</a>
+    <a href="#">Album: PinkPantheress - Heaven Knows</a>
+    <a href="#">Album: Sampha - Lahai</a>
+    <a href="#">Album: Drake - For All the Dogs</a>
+    <a href="#">James Blake, Alexandra Palace review - victory lap for North London native</a>
+    <a href="#">Album: Jorja Smith - Falling or Flying</a>
+    <a href="#">Album: Doja Cat - Scarlet</a>
+    <a href="#">Album: James Blake - Playing Robots Into Heaven</a>
+    <a href="#">Album: King Krule - Space Heavy</a>
+    <a href="#">Album: slowthai - UGLY</a>
+    <a href="#">Album: Kelela - Raven</a>
+    <a href="#">The Innocents review - they're just playing</a>
+    <a href="#">Album: Lykke Li - EYEYE</a>
+    <a href="#">Album: Earl Sweatshirt - Sick!</a>
+    <a href="#">Album: Young Thug - Punk</a>
+    <a href="#">Album: Nao - And Then Life Was Beautiful</a>
+    <a href="#">Album: Jorja Smith - Be Right Back</a>
+    <a href="#">Album: slowthai - TYRON</a>
+    <a href="#">Album: Billie Joe Armstrong - No Fun Mondays</a>
+  </div>
+</div>
+
+<div class="section">
+  <div class="section-title">Screenings</div>
+  <div class="links"></div>
+</div>
+
+<div class="section">
+  <div class="section-title">About</div>
+  <div class="links"></div>
+</div>
+
+<div class="section">
+  <div class="section-title">Contact</div>
+  <div class="links"></div>
+</div>
+
+<script>
+  const sections = document.querySelectorAll('.section');
+
+  sections.forEach(section => {
+    const title = section.querySelector('.section-title');
+    const links = section.querySelector('.links');
+
+    title.addEventListener('click', () => {
+      // close all others
+      document.querySelectorAll('.links').forEach(l => {
+        if (l !== links) l.style.display = 'none';
+      });
+
+      // toggle this one
+      links.style.display = (links.style.display === 'block') ? 'none' : 'block';
+    });
+  });
+</script>
+
+</body>
+</html>
