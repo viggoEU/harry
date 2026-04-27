@@ -16,6 +16,14 @@ h1 {
   margin: 10px 0 0 0;
 }
 
+.section#contact p {
+  font-size: 18px;
+  line-height: 1.7;
+  color: #111;
+  max-width: 600px;
+  margin: 10px 0 0 0;
+}
+
 .links {
   cursor: pointer;
   display: grid;
