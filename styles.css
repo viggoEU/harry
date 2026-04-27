@@ -12,24 +12,6 @@ h1 {
   text-decoration: underline;
 }
 
-.section#about p {
-  font-size: 18px;
-  line-height: 1.7;
-  color: #111;
-  max-width: 600px;
-  margin: 10px 0 0 0;
-  cursor: text;
-}
-
-.section#contact p {
-  font-size: 18px;
-  line-height: 1.7;
-  color: #111;
-  max-width: 600px;
-  margin: 10px 0 0 0;
-  cursor: text;
-}
-
 .links {
   cursor: pointer;
   display: grid;
@@ -60,4 +42,22 @@ h1 {
 
 .links a:hover {
   text-decoration: underline;
+}
+
+.section#about p {
+  font-size: 18px;
+  line-height: 1.7;
+  color: #111;
+  max-width: 600px;
+  margin: 10px 0 0 0;
+  cursor: text;
+}
+
+.section#contact p {
+  font-size: 18px;
+  line-height: 1.7;
+  color: #111;
+  max-width: 600px;
+  margin: 10px 0 0 0;
+  cursor: text;
 }
