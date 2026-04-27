@@ -8,7 +8,7 @@ h1 {
   cursor: pointer;
 }
 
-.section-title: hover {
+.section-title:hover {
   text-decoration: underline;
 }
 
