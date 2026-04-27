@@ -16,3 +16,17 @@
   grid-template-rows: 1fr;
   opacity: 1;
 }
+
+.links a {
+  display: block;
+  font-size: 18px;
+  color: #0000ff;
+  text-decoration: none;
+
+  margin-bottom: 8px;
+  line-height: 1.4;
+}
+
+.links a:hover {
+  text-decoration: underline;
+}
