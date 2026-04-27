@@ -1,14 +1,15 @@
 h1 {
   font-size: 36px;
+  cursor: pointer;
 }
 
 .section-title {
   font-size: 36px;
+  cursor: pointer;
 }
 
 .links {
-  margin-left: 20px;
-
+  cursor: pointer;
   display: grid;
   grid-template-rows: 0fr;
   opacity: 0;
