@@ -14,27 +14,4 @@ sections.forEach(section => {
   });
 });
 
-document.addEventListener("click", (e) => {
-  for (let i = 0; i < 12; i++) {
-    const particle = document.createElement("div");
-    particle.className = "ascii-particle";
-    particle.textContent = symbols[Math.floor(Math.random() * symbols.length)];
-
-    const angle = Math.random() * 2 * Math.PI;
-    const distance = Math.random() * 80 + 20;
-
-    const x = Math.cos(angle) * distance;
-    const y = Math.sin(angle) * distance;
-
-    particle.style.left = e.clientX + "px";
-    particle.style.top = e.clientY + "px";
-    particle.style.setProperty("--x", x + "px");
-    particle.style.setProperty("--y", y + "px");
-
-    document.body.appendChild(particle);
-
-    setTimeout(() => {
-      particle.remove();
-    }, 600);
-  }
 });
