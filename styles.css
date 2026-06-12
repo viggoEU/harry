@@ -1,10 +1,11 @@
 h1 {
-  font-size: 36px;
+  font-size: 96px;
   cursor: pointer;
+  font-family: helvetica;
 }
 
 .section-title {
-  font-size: 36px;
+  font-size: 96px;
   cursor: pointer;
 }
 
