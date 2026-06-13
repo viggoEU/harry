@@ -112,4 +112,8 @@ h1 {
     margin-bottom: 24px;
     line-height: 1;
   }
+
+  .section#contact p{
+    font-size: 40px;
+  }
 }
