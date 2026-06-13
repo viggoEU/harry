@@ -108,12 +108,12 @@ h1 {
 
 @media (max-width: 768px) {
   .links a {
-    font-size: 40px;
+    font-size: 30px;
     margin-bottom: 24px;
     line-height: 1;
   }
 
   .section#contact p{
-    font-size: 40px;
+    font-size: 30px;
   }
 }
