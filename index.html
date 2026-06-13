@@ -5,7 +5,31 @@
   <title>Harry Thorfinn George</title>
 
   <link rel="stylesheet" href="styles.css">
+  <style>
+    body{
+      padding:0.5vh 1vh 1vh 1vh;
+      margin:0;
+
+    }
+    h1 {
+      margin: 0 0 10vh 0;
+      padding:0;
+      line-height: 1;
+    }
+
+    .section{
+        line-height: 1;
+
+    }
+    .links{
+      margin-left: 0.75vh;
+    }
+  </style>
 </head>
+
+<div id="image-preview">
+    <img src="">
+</div>
 
 <body>
 
@@ -15,23 +39,76 @@
   <div class="section-title">Articles</div>
   <div class="links">
     <div>
-    <a href="https://pitchfork.com/features/highlights-from-pitchfork-music-festival-london-2025/">6 Highlights From Pitchfork Music Festival London 2025</a>
-    <a href="#">Pink Man pushing his pink trolley through a field in Thailand: Manit Sriwanichpoom’s best photograph</a>
-    <a href="#">5 Highlights From Pitchfork Music Festival London 2024</a>
-    <a href="#">theartsdesk Q&A: Anna Bogutskaya on her new book about the past decade of horror cinema</a>
-    <a href="#">DVD/Blu-Ray: Priscilla</a>
-    <a href="#">Albums of the Year 2023: Jim Legxacy - HNPM</a>
-    <a href="#">Bladee's Swedish homecoming</a>
-    <a href="#">‘The most boring book club meetings are when we all agree’</a>
-    <a href="#">This small press publishes Nobel laureates, but still has two feet in Deptford</a>
-    <a href="#">Albums of the Year 2022: caroline - caroline</a>
-    <a href="#">‘Young people telling their own stories’ - youth theatre boosted by £422,000 Lottery grant</a>
-    <a href="#">Activists occupy tree to stop felling by council</a>
-    <a href="#">Tributes paid to Lewisham community activist</a>
-    <a href="#">Renting activists plan day of protest across the ELL boroughs next week</a>
-    <a href="#">theartsdesk Q&A: Marc Almond of Soft Cell</a>
-    <a href="#">Albums of the Year 2021: PinkPantheress - to hell with it</a>
-    <a href="#">Albums of the Year 2020: A.G. Cook - 7G</a>
+    <a href="https://www.theguardian.com/artanddesign/2025/may/28/pink-man-pink-trolley-thailand-manit-sriwanichpooms-best-photograph"
+    class="preview-link"
+      data-image="images/manit.jpg">
+    The Guardian: Pink Man pushing his pink trolley through a field in Thailand: Manit Sriwanichpoom’s best photograph</a>
+    <a href="https://pitchfork.com/features/out-in-bangkok-with-thaiboy-digital/"
+       class="preview-link"
+      data-image="images/thaiboy.jpg">
+      Pitchfork: Out in Bangkok with Thaiboy Digital</a>
+    <a href="https://pitchfork.com/features/highlights-from-pitchfork-music-festival-london-2025/"
+    class="preview-link"
+      data-image="images/pitchfork2025.webp">
+    Pitchfork: 5 Highlights From Pitchfork Music Festival London 2025</a>
+      <a href="https://pitchfork.com/features/festival-report/highlights-from-pitchfork-music-festival-london-2024/"
+    class="preview-link"
+      data-image="images/pitchfork2024.webp">
+    Pitchfork: 6 Highlights From Pitchfork Music Festival London 2024</a>
+    <a href="https://www.clashmusic.com/features/the-ancient-trance-mariner-danny-l-harle-interviewed/"
+      class="preview-link"
+      data-image="images/danny.jpg">
+    CLASH: The Ancient Trance Mariner: Danny L Harle Interviewed</a>
+        <a href="https://www.clashmusic.com/next-wave/next-wave-1164-brazy/"
+      class="preview-link"
+      data-image="images/brazy.jpg">
+    CLASH: Next Wave #1164 - Brazy</a>
+    <a href="https://nobells.blog/bladee-swedish-homecoming-concert/"
+     class="preview-link"
+      data-image="images/bladee.png">
+    No Bells: Bladee's Swedish homecoming</a>
+      <a href="https://www.ninaprotocol.com/posts/web-of-influences-toxe"
+     class="preview-link"
+      data-image="images/toxe.webp">
+    nina protocol: Web of Influences - Toxe</a>
+          <a href="https://www.ninaprotocol.com/posts/nina-interviews-leya?brid=YWdncwHG8Z8rO5DyMzl_7ittBZS2"
+     class="preview-link"
+      data-image="images/leya.webp">
+    nina protocol: Interview - Leya</a>
+    <a href="https://theartsdesk.com/books/theartsdesk-qa-anna-bogutskaya-her-new-book-about-past-decade-horror-cinema"
+    class="preview-link"
+      data-image="images/feedingTheMonster.jpg">
+    theartsdesk: Q&A: Anna Bogutskaya on her new book about the past decade of horror cinema</a>
+    <a href="#"
+    class="preview-link"
+      data-image="images/priscilla.jpg">
+    theartsdesk: DVD/Blu-Ray: Priscilla</a>
+    <a href="https://theartsdesk.com/new-music/theartsdesk-qa-marc-almond-soft-cell"
+    class="preview-link"
+      data-image="images/marcAlmond.jpg">
+    theartsdesk: Q&A: Marc Almond of Soft Cell</a>
+    <a href="https://theartsdesk.com/new-music/albums-year-2023-jim-legxacy-hnpm"
+    class="preview-link"
+      data-image="images/jimLegxacy.webp">
+    theartsdesk: Albums of the Year 2023: Jim Legxacy - HNPM</a>
+    <a href="https://theartsdesk.com/new-music/albums-year-2022-caroline-caroline"
+    class="preview-link"
+      data-image="images/caroline.jpg">
+    theartsdesk: Albums of the Year 2022: caroline - caroline</a>
+    <a href="https://theartsdesk.com/new-music/albums-year-2021-pinkpantheress-hell-it"
+    class="preview-link"
+      data-image="images/toHellWithIt.jpeg">
+    theartsdesk: Albums of the Year 2021: PinkPantheress - to hell with it</a>
+    <a href="https://www.theartsdesk.com/new-music/albums-year-2020-ag-cook-7g?amp"
+    class="preview-link"
+      data-image="images/7g.jpg">
+    theartsdesk: Albums of the Year 2020: A.G. Cook - 7G</a>
+    <a href="#">Eastlondonlines: ‘The most boring book club meetings are when we all agree’</a>
+    <a href="#">Eastlondonlines: This small press publishes Nobel laureates, but still has two feet in Deptford</a>
+    <a href="#">Eastlondonlines: Youth theatre boosted by £422,000 Lottery grant</a>
+    <a href="#">Eastlondonlines: Activists occupy tree to stop felling by council</a>
+    <a href="#">Eastlondonlines: Tributes paid to Lewisham community activist</a>
+    <a href="#">Eastlondonlines: Renting activists plan day of protest across the ELL boroughs next week</a>
     </div>
   </div>
 </div>
@@ -40,42 +117,172 @@
   <div class="section-title">Reviews</div>
   <div class="links">
     <div>
-    <a href="#">caroline, Islington Assembly Hall review - South London octet mesmerises</a>
-    <a href="#">Mongrel review - deeply empathetic filmmaking from Taiwan</a>
-    <a href="#">Smile 2 review - worthy follow up to runaway hit</a>
-    <a href="#">Red Rooms review - the darkest of webs</a>
-    <a href="#">Strange Darling review - love really hurts</a>
-    <a href="#">In A Violent Nature review - inverted slasher is fascinating</a>
-    <a href="#">Longlegs review - like its titular killer, this summer's most hyped horror film leaves no trace</a>
-    <a href="#">The Moor review - Yorkshire chiller is ambitious but muddled</a>
-    <a href="#">Album: Fabiana Palladino - Fabiana Palladino</a>
-    <a href="#">Late Night With the Devil review - indie-horror punches above its weight</a>
-    <a href="#">Immaculate review - grisly convent horror is timely but flawed.</a>
-    <a href="#">Album: PinkPantheress - Heaven Knows</a>
-    <a href="#">Album: Sampha - Lahai</a>
-    <a href="#">Album: Drake - For All the Dogs</a>
-    <a href="#">James Blake, Alexandra Palace review - victory lap for North London native</a>
-    <a href="#">Album: Jorja Smith - Falling or Flying</a>
-    <a href="#">Album: Doja Cat - Scarlet</a>
-    <a href="#">Album: James Blake - Playing Robots Into Heaven</a>
-    <a href="#">Album: King Krule - Space Heavy</a>
-    <a href="#">Album: slowthai - UGLY</a>
-    <a href="#">Album: Kelela - Raven</a>
-    <a href="#">The Innocents review - they're just playing</a>
-    <a href="#">Album: Lykke Li - EYEYE</a>
-    <a href="#">Album: Earl Sweatshirt - Sick!</a>
-    <a href="#">Album: Young Thug - Punk</a>
-    <a href="#">Album: Nao - And Then Life Was Beautiful</a>
-    <a href="#">Album: Jorja Smith - Be Right Back</a>
-    <a href="#">Album: slowthai - TYRON</a>
-    <a href="#">Album: Billie Joe Armstrong - No Fun Mondays</a>
+    <a href="https://theartsdesk.com/film/mongrel-review-deeply-empathetic-filmmaking-taiwan"
+      class="preview-link"
+      data-image="images/mongrel.jpg">
+      Film: Mongrel - Chiang Wei-liang</a>
+    <a href="https://theartsdesk.com/film/innocents-review-theyre-just-playing"
+      class="preview-link"
+      data-image="images/theInnocents.jpg">
+      Film: The Innocents - Eskil Vogt</a>
+    <a href="https://theartsdesk.com/film/smile-2-review-worthy-follow-runaway-hit"
+      class="preview-link"
+      data-image="images/smile.jpg">
+      Film: Smile 2 - Parker Finn</a>
+    <a href="https://theartsdesk.com/film/red-rooms-review-darkest-webs"
+      class="preview-link"
+      data-image="images/redRoom.jpg">
+      Film: Red Rooms - Pascal Plante</a>
+  <a href="https://theartsdesk.com/film/strange-darling-review-love-really-hurts"
+      class="preview-link"
+      data-image="images/strangeDarling.jpg">
+      Film: Strange Darling - JT Mollner</a>
+    <a href="https://theartsdesk.com/film/violent-nature-review-inverted-slasher-fascinating"
+      class="preview-link"
+      data-image="images/inAViolentNature.webp">
+      Film: In A Violent Nature - Chris Nash</a>
+    <a href="https://theartsdesk.com/film/longlegs-review-its-titular-killer-summers-most-hyped-horror-film-leaves-no-trace"
+      class="preview-link"
+      data-image="images/longlegs.jpg">
+      Film: Longlegs - Oz Perkins</a>
+    <a href="https://theartsdesk.com/film/moor-review-yorkshire-chiller-ambitious-muddled"
+      class="preview-link"
+      data-image="images/theMoor.jpg">
+      Film: The Moor - Chris Cronin</a>
+    <a href="https://theartsdesk.com/film/late-night-devil-review-indie-horror-punches-above-its-weight"
+      class="preview-link"
+      data-image="images/lateNightWithTheDevil.webp">
+      Film: Late Night With the Devil - Cameron Cairnes, Colin Cairnes</a>
+    <a href="https://theartsdesk.com/film/immaculate-review-grisly-convent-horror-timely-flawed"
+      class="preview-link"
+      data-image="images/immaculate.jpg">
+      Film: Immaculate - Michael Mohan</a>
+    <a href="https://pitchfork.com/reviews/albums/blod-forlorarnas-natt/"
+      class="preview-link"
+      data-image="images/blod.png">
+      Album: Förlorarnas natt - Blod</a>
+    <a href="https://theartsdesk.com/new-music/album-fabiana-palladino-fabiana-palladino"
+      class="preview-link"
+      data-image="images/fabianaPalladino.jpg">
+      Album: Fabiana Palladino - Fabiana Palladino</a>
+    <a href="https://www.clashmusic.com/reviews/frost-children-hearth-room/?brid=YWdncwE-IYPRQOkRle5MpfhUMx5b"
+      class="preview-link"
+      data-image="images/frostChildren.jpg">
+      Album: Frost Children - Hearth Room</a>
+    <a href="https://theartsdesk.com/new-music/album-pinkpantheress-heaven-knows"
+      class="preview-link"
+      data-image="images/heavenKnows.jpg">
+      Album: PinkPantheress - Heaven Knows</a>
+    <a href="https://theartsdesk.com/new-music/album-sampha-lahai"
+      class="preview-link"
+      data-image="images/sampha.jpeg">
+      Album: Sampha - Lahai</a>
+    <a href="https://theartsdesk.com/new-music/album-drake-all-dogs"
+      class="preview-link"
+      data-image="images/drake.jpeg">
+      Album: Drake - For All the Dogs</a>
+    <a href="https://theartsdesk.com/new-music/album-jorja-smith-falling-or-flying"
+      class="preview-link"
+      data-image="images/jorjaSmith.jpeg">
+      Album: Jorja Smith - Falling or Flying</a>
+    <a href="https://theartsdesk.com/new-music/album-doja-cat-scarlet"
+      class="preview-link"
+      data-image="images/doja.jpeg">
+      Album: Doja Cat - Scarlet</a>
+    <a href="https://theartsdesk.com/new-music/album-james-blake-playing-robots-heaven"
+      class="preview-link"
+      data-image="images/playingRobotsIntoHeaven.jpg">
+      Album: James Blake - Playing Robots Into Heaven</a>
+    <a href="https://theartsdesk.com/new-music/album-king-krule-space-heavy"
+      class="preview-link"
+      data-image="images/kingKrule.jpeg">
+      Album: King Krule - Space Heavy</a>
+    <a href="https://theartsdesk.com/new-music/album-slowthai-ugly"
+      class="preview-link"
+      data-image="images/slowthai.jpeg">
+      Album: slowthai - UGLY</a>
+    <a href="https://theartsdesk.com/new-music/album-kelela-raven"
+      class="preview-link"
+      data-image="images/raven.jpeg">
+      Album: Kelela - Raven</a>
+    <a href="https://theartsdesk.com/new-music/album-lykke-li-eyeye"
+      class="preview-link"
+      data-image="images/lykkeLi.jpeg">
+      Album: Lykke Li - EYEYE</a>
+    <a href="https://theartsdesk.com/new-music/album-earl-sweatshirt-sick"
+      class="preview-link"
+      data-image="images/sick.jpeg">
+      Album: Earl Sweatshirt - Sick!</a>
+    <a href="https://theartsdesk.com/new-music/album-young-thug-punk"
+      class="preview-link"
+      data-image="images/punk.jpeg">
+      Album: Young Thug - Punk</a>
+    <a href="https://theartsdesk.com/new-music/album-nao-and-then-life-was-beautiful"
+      class="preview-link"
+      data-image="images/nao.jpg">
+      Album: Nao - And Then Life Was Beautiful</a>
+    <a href="https://theartsdesk.com/new-music/album-jorja-smith-be-right-back"
+      class="preview-link"
+      data-image="images/beRightBack.jpg">
+      Album: Jorja Smith - Be Right Back</a>
+    <a href="https://theartsdesk.com/new-music/album-slowthai-tyron"
+      class="preview-link"
+      data-image="images/tyron.jpg">
+      Album: slowthai - TYRON</a>
+    <a href="https://theartsdesk.com/new-music/album-billie-joe-armstrong-no-fun-mondays"
+      class="preview-link"
+      data-image="images/noFunMondays.jpg">
+      Album: Billie Joe Armstrong - No Fun Mondays</a>
+    <a href="https://theartsdesk.com/new-music/caroline-islington-assembly-hall-review-south-london-octet-mesmerises"
+      class="preview-link"
+      data-image="images/carolineConcert.jpg">
+      Concert: caroline, Islington Assembly</a>
+    <a href="https://theartsdesk.com/new-music/james-blake-alexandra-palace-review-victory-lap-north-london-native"
+      class="preview-link"
+      data-image="images/jamesBlakeConcert.jpg">
+      Concert: James Blake, Alexandra Palace</a>
     </div>
   </div>
 </div>
 
-<div class="section">
+<div class="section" id="screenings">
   <div class="section-title">Screenings</div>
-  <div class="links"></div>
+  <div class="links">
+    <div>
+    <a href="#"
+      class="preview-link"
+      data-image="images/alibrandi.webp">
+      Hausu Film Club: Looking for Alibrandi, 2000, Australia, Kate Woods (14/6/2026)</a>
+    <a href="#"
+      class="preview-link"
+      data-image="images/killingFlies.jpg">
+      Hausu Film Club: I Like Killing Flies, 2004, USA, Matt Mahurin (22/2/2026)</a>
+    <a href="#"
+      class="preview-link"
+      data-image="images/piecesOfApril.jpg">
+      Hausu Film Club: Pieces of April, 2003, USA, Peter Hedges (14/4/2026)</a>
+    <a href="#"
+      class="preview-link"
+      data-image="images/tenebre.jpg">
+      Hausu Film Club: Tenebre, 1982, Italy, Dario Argento (2/11/2025)</a>
+    <a href="#"
+      class="preview-link"
+      data-image="images/strayCat.jpg">
+      Hausu Film Club: Stray Cat Rock: Machine Animal, 1970, Japan, Yasuharu Hasebe (17/8/2025)</a>
+    <a href="https://thenickel.co.uk/"
+      class="preview-link"
+      data-image="images/nangNak.jpg">
+      The Nickel: Nang Nak, 1999, Thailand, Nonzee Nimibutr (14/1/2026)</a>
+     <a href="https://thenickel.co.uk"
+      class="preview-link"
+      data-image="images/theAdventureOfIronPussy.jpg">
+      The Nickel: The Adventure of Iron Pussy, 2003, Thailand, Apichatpong Weerasethakul (4/9/2025)</a>
+    <a href="https://thenickel.co.uk"
+      class="preview-link"
+      data-image="images/dogGod.jpg">
+      The Nickel: Dog God, 1997, Thailand, Ing Kanjanavanit (3/7/2025)</a>
+  </div>
+  </div>
 </div>
 
 <div class="section" id="about">
@@ -83,7 +290,7 @@
 <div class="links">
     <div>
       <p>
-        Harry Thorfinn George is...
+        words in the guardian, pitchfork, clash, nina protocol, no bells and more.
       </p>
     </div>
   </div>
