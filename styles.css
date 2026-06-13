@@ -1,18 +1,19 @@
 h1 {
   font-size: 96px;
-  cursor: pointer;
+  cursor: default;
   font-family: helvetica;
+  font-weight: lighter;
 }
 
 .section-title {
   font-size: 96px;
   cursor: pointer;
+  font-family: helvetica;
+  font-weight: lighter;
 }
 
 .section-title:hover {
-  text-decoration-line: underline;
-  text-decoration-thickness: 1px;
-  text-underline-offset: 3px;
+  background-color: #aeff00;
 }
 
 .links {
@@ -20,7 +21,7 @@ h1 {
   display: grid;
   grid-template-rows: 0fr;
   opacity: 0;
-
+  font-family: helvetica;
   transition: grid-template-rows 0.4s ease, opacity 0.25s ease;
 }
 
@@ -35,52 +36,72 @@ h1 {
 
 .links a {
   display: block;
-  font-size: 18px;
-  color: #0000ff;
+  font-size: 22px;
   text-decoration: none;
+  color: #000000;
 
   margin-bottom: 8px;
   line-height: 1;
 }
 
 .links a:hover {
-  text-decoration: underline;
+  color: #ffffff;
+  background-color: #0000ff;
+
+}
+
+.links p {
+  font-size: 96px;
+  font-family: helvetica;
+  font-weight: lighter;
 }
 
 .section#about p {
-  font-size: 18px;
-  line-height: 1.7;
+  display: block;
+  font-size: 96px;
+  margin: 0;
+  line-height: 1;
   color: #111;
-  max-width: 600px;
-  margin: 10px 0 0 0;
   cursor: text;
 }
 
 .section#contact p {
-  font-size: 18px;
+  font-size: 96px;
+  font-family: helvetica;
+  font-weight: lighter;
   line-height: 1.7;
   color: #111;
   max-width: 600px;
   margin: 10px 0 0 0;
   cursor: text;
+  transition: grid-template-rows 0.0s ease;
 }
 
-.ascii-particle {
-  position: fixed;
-  pointer-events: none;
-  font-family: monospace;
-  font-size: 16px;
-  color: #000;
-  animation: explode 600ms ease-out forwards;
+.line-through{
+  text-decoration: line-through;
 }
 
-@keyframes explode {
-  0% {
-    transform: translate(0, 0) scale(1);
-    opacity: 1;
-  }
-  100% {
-    transform: translate(var(--x), var(--y)) scale(0.5);
-    opacity: 0;
-  }
+.categorieColor {
+  font-weight: bold;
+  color:#0000ff;
+}
+
+.preview-link {
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+#image-preview {
+    position: fixed;
+    left: 800px;
+    top: 50%;
+    transform: translateY(-50%);
+
+    width: 600px;
+    display: none;
+}
+
+#image-preview img {
+    width: 100%;
+    display: block;
 }
